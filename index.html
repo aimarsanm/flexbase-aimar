@@ -1,22 +1,37 @@
-<html>
-	<head>
-
-		<link href="estiloak.css" rel="stylesheet">
-	</head>
-	<body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="estiloak.css">
+	<script src="datubasea.json"></script>
+	<script src="main.js"></script>
+</head>
+<body>
 	<div class="flex-container">
 
-	  <div class="flex left">
-	    Flex Column 1
-	  </div>
-
-	  <div class="flex right">
-	    Flex Column 2
-	  </div>
-
+		<div class="flex left">
+		  <img src="" alt="" id="irudia">
+		</div>
+  
+		<div class="flex right">
+		  <form action="">
+			<div class="inputkontainerra">
+			Izenburua: <input type="text" id="izenburua"></br>
+			Egilea: <input type="text" id="egilea"></br>
+			Data: <input type="text" id="data"></br>
+			ISBN: <input type="text" id="isbn"></br>
+			<input type="button" value="Bilatu" id="bilatu">
+			</div>
+		  </form>
+		  <div class="boioikontainerra">
+			<input type="button" value="<<" id="ezk">
+			<input type="button" value=">>" id="esk">
+		  </div>
+		</div>
+		
 	</div>
-
-    </body>
+	
+</body>
 </html>
-
